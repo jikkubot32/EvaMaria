@@ -92,7 +92,7 @@ def get_reply_markup(query):
     buttons = [
         [
             InlineKeyboardButton('📂 Search Again', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Official Channel ⚡️', url='https://t.me/FilmClub_Channel')
+            InlineKeyboardButton('Official Channel ⚡️', url='https://t.me/Film_ClubChannel')
         ]
         ]
     return InlineKeyboardMarkup(buttons)
